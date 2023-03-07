@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head')%>
+        <style>
+            img {
+                width: 2rem;
+            }
+
+            strong {
+                color: blue;
+            }
+
+            #texto {
+                font-style: italic;
+                color: green;
+            }
+        </style>
+        <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row d-flex justify-content-center p-3">
+            <form class="col-sm-4 " action="/signinn" method="post" >
+                <h3 class="text-center">Inicio sesion</h3>
+                <div class="mb-3 text-center">
+                    <label class="form-label">Email</label>
+                    <input type="email" name="username" id="username" class="form-control">
+                </div>
+                <div class="mb-3 text-center">
+                    <label class="form-label">Password</label>
+                    <input type="password" name="password" id="password" class="form-control">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary" value="Enviar">Submit</button>
+                </div>
+            </form>
+            
+        </div>
+        <div class="row d-flex justify-content-center p-3">
+            <form class="col-sm-4 " action="/signup" >
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary" value="Enviar">Registrate</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.1/dist/normalizr.browser.min.js"></script>
+    <script src="/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

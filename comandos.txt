@@ -1,0 +1,16 @@
+tecnicamente tendria que ser asi pero pm2 no me toma los parametros
+
+pm2 start server.js --name=server1 -- --port=8080 --modo=fork
+pm2 start server.js --name=server2 -- --port=8081 --modo=cluster
+pm2 start server.js --name=server3 -- --port=8082 --modo=fork
+pm2 start server.js --name=server4 -- --port=8083 --modo=fork
+pm2 start server.js --name=server5 -- --port=8084 --modo=cluster --i=2
+
+
+pero como no me toma los parametros las lineas serian
+
+pm2 start pm2 start server.js --name=server1 -- 8080
+pm2 start pm2 start server.js --name=server2 --i -- 8081
+pm2 start pm2 start server.js --name=server3 -- 8082
+pm2 start pm2 start server.js --name=server4 -- 8083
+pm2 start pm2 start server.js --name=server5 --i 2 -- 8084

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Escuadra",
+    "price": 123.45,
+    "id": 1,
+    "url": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-512.png"
+  },
+  {
+    "title": "Calculadora",
+    "price": 234.56,
+    "id": 2,
+    "url": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-512.png"
+  },
+  {
+    "title": "Globo Terraqueo",
+    "price": 345.67,
+    "id": 3,
+    "url": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-512.png"
+  },
+  {
+    "title": "Reloj",
+    "price": "234.02",
+    "id": 4,
+    "url": "https://cdn3.iconfinder.com/data/icons/education-209/64/clock-stopwatch-timer-time-512.png"
+  },
+  {
+    "title": "Microscopio",
+    "price": "943.06",
+    "id": 5,
+    "url": "https://cdn3.iconfinder.com/data/icons/education-209/64/microscope-lab-science-school-512.png"
+  }
+]
